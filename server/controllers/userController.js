@@ -1,6 +1,6 @@
 import ErrorHandler from "../middlewares/error.js";
 import { catchAsyncError } from "../middlewares/catchAsyncError.js";
-import {User} from "../models/userModel.js";
+import {User} from "../models/usermodel.js";
 import { sendEmail } from "../utils/sendEmail.js";
 import twilio from "twilio";
 import { config } from "dotenv";
