@@ -14,7 +14,7 @@ const Home = () => {
 
   const logout = async () => {
     await axios
-      .get("http://localhost:3000/api/v1/user/logout", {
+      .get("https://loginregister-e0bb.onrender.com/api/v1/user/logout", {
         withCredentials: true,
       })
       .then((res) => {
