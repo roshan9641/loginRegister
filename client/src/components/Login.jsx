@@ -16,7 +16,7 @@ const Login = () => {
   } = useForm();
   const handleLogin = async (data) => {
     await axios
-      .post("http://localhost:3000/api/v1/user/login", data, {
+      .post("https://loginregister-e0bb.onrender.com/api/v1/user/login", data, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",
